@@ -19,7 +19,7 @@ const Page = () => {
                         <Link href="/interview">Start an Interview</Link>
                     </Button>
                 </div>
-                <Image src="/robot.png" alt="robot" width={400} height={400} className="max-sm:hidden" />
+                <Image src="/robotv2.png" alt="robot" width={320} height={320} className="max-sm:hidden" />
 
             </section>
 

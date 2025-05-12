@@ -266,7 +266,7 @@
   }
 
   .card-cta {
-    @apply flex flex-row blue-gradient-dark rounded-3xl px-16 py-6 items-center justify-between max-sm:px-4;
+    @apply flex flex-row dark-purple-gradient rounded-3xl px-16 py-6 items-center justify-between max-sm:px-4;
   }
 
   .interviews-section {
@@ -294,6 +294,11 @@
   }
 }
 
+@utility dark-purple-gradient {
+  @apply bg-gradient-to-b from-[#1a002b] to-[#050010];
+}
+
+
 @utility dark-gradient {
   @apply bg-gradient-to-b from-[#1A1C20] to-[#08090D];
 }
@@ -309,6 +314,11 @@
 @utility blue-gradient-dark {
   @apply bg-gradient-to-b from-[#171532] to-[#08090D];
 }
+
+@utility dark-red-gradient {
+  @apply bg-gradient-to-b from-[#3b0a0a] to-[#1a0000];
+}
+
 
 @utility blue-gradient {
   @apply bg-gradient-to-l from-[#FFFFFF] to-[#CAC5FE];
