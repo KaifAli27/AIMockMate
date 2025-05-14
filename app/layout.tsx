@@ -16,16 +16,17 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,
-}: Readonly<{
+                                     children,
+                                   }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+      <html lang="en" className="dark">
       <body className={`${monaSans.className} antialiased pattern`}>
-        {children}
-        <Toaster/>
+      {children}
+
+      <Toaster />
       </body>
-    </html>
+      </html>
   );
 }
